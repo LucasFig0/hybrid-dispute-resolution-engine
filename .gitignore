@@ -1,0 +1,10 @@
+﻿.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+data/raw/*.csv
+data/processed/*.duckdb
+data/processed/*.duckdb.wal
+chroma_db/
