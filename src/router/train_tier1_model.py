@@ -166,7 +166,7 @@ def train_and_calibrate_tier1() -> Dict[str, Any]:
     auto_approve_mask = (
         (X_test["delivery_delay_hours"] > 24.0)
         & (X_test["payment_value"] <= 60.0)
-        & (calib_probs_test >= 0.50)
+        & (calib_probs_test >= 0.35)
     )
 
     # Regra B (Fast-Track Baixo Risco Operacional): Entregue antes do prazo (<-12h),
@@ -233,3 +233,4 @@ def train_and_calibrate_tier1() -> Dict[str, Any]:
 
 if __name__ == "__main__":
     train_and_calibrate_tier1()
+
