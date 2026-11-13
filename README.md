@@ -1,7 +1,7 @@
 ﻿# Hybrid Dispute & Refund Resolution Engine (iFood GenAI Portfolio)
 
 [![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Benchmark%20Dataset%20(300%20Cases)-yellow)](https://huggingface.co/datasets/LucasFig0/brazilian-ecommerce-dispute-evals)
-[![Kaggle Notebook](https://www.kaggle.com/code/figlucasazevedo/hybrid-dispute-engine-tier-1-duckdb-medallion-c)
+[![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Medallion%20%26%20LightGBM%20Notebook-20BEFF?logo=kaggle&logoColor=white)]($kaggleUrl)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Tests](https://img.shields.io/badge/Pytest-36%20Passed-brightgreen)]()
 
